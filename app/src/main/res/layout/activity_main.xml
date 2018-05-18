@@ -11,7 +11,14 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button_simple_ball"
+            android:id="@+id/button_simple_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Simple Body View" />
+
+        <Button
+            android:id="@+id/button_endless_ball"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"

@@ -18,7 +18,12 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick(R.id.button_simple_ball)
+    @OnClick(R.id.button_simple_body)
+    public void onMButtonSimpleClicked() {
+        startActivity(new Intent(this, SimpleBodyActivity.class));
+    }
+
+    @OnClick(R.id.button_endless_ball)
     public void onMButtonSimpleBallClicked() {
         startActivity(new Intent(this, EndlessBallActivity.class));
     }

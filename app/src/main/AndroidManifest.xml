@@ -21,6 +21,9 @@
         <activity
             android:name=".activity.EndlessBallActivity"
             android:label="Endless Ball" />
+        <activity
+            android:name=".activity.SimpleBodyActivity"
+            android:label="Simple Ball" />
     </application>
 
 </manifest>
