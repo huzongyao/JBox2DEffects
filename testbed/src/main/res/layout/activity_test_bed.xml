@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hzy.jbox2d.testbed.TestBedActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.hzy.jbox2d.testbed.TestBedView
+            android:id="@+id/test_bed_view"
+            android:layout_width="match_parent"
+            android:layout_height="320dp" />
+
+        <TextView
+            android:id="@+id/test_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorAccent"
+            tools:text="Test Name" />
+
+        <Spinner
+            android:id="@+id/test_case_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:foreground="@drawable/spinner_background"
+            tools:listitem="@android:layout/simple_list_item_1" />
+    </LinearLayout>
+</ScrollView>
